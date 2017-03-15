@@ -42,7 +42,18 @@ To run the bypass execute the following command, ensuring that the **file.rst** 
 odbcconf -f file.rsp
 ```
 
+## msiexec
 
+The **msiexec** example comes from the following Github Gist by Nick Tyrer:
+
+[https://gist.github.com/NickTyrer/9f8cbd5142c4cea63e98da8aac39c874b](https://gist.github.com/NickTyrer/9f8cbd5142c4cea63e98da8aac39c874)
+
+
+To run the bypass execute the following command. Note the the path to the DLL must be fully qualified:
+
+```
+msiexec .\m.dll
+```
 
 # Links
 
